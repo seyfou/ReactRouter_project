@@ -27,7 +27,7 @@ function MoviesCard({elm}) {
               activeColor="#ffd700"
             /></div>
             
-              <Card.Text> <Link to={{pathname:`/Trailer/${elm.name}`,Props:{name:elm.name,url:elm.url}}}>watch trailer</Link> </Card.Text>
+              <Card.Text> <Link to={{pathname:`/Trailer/${elm.name}`,Props:{name:elm.name,url:elm.urlt}}}>watch trailer</Link> </Card.Text>
               <Card.Text> <Link to={{pathname:`/Description/${elm.name}`,Props:{name:elm.name,description:elm.description}}}>Read more</Link> </Card.Text>
               <Card.Text>
               <a href={elm.url}>

@@ -9,7 +9,7 @@ function Search({searchtext, searchrate}) {
     return (
         <div>
       <Navbar className="navColor" expand="lg">
-  <Navbar href="#home" className="logo">Go<h1 className="box">My </h1>Movies</Navbar>
+  <Navbar  className="logo">Go<h1 className="box">My </h1>Movies</Navbar>
   <Navbar.Toggle   />
   <Navbar.Collapse  className="search">
     <Form inline >
@@ -19,13 +19,9 @@ function Search({searchtext, searchrate}) {
          <ReactStars 
               count={5}
               size={24}
-              // value={elm.rating}
               onChange={(newRating)=>searchrate(newRating)}
               activeColor="#ffd700"
             /></div>
-    
-  
-        
     </Form>
   </Navbar.Collapse>
 </Navbar>
